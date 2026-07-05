@@ -1,4 +1,9 @@
 ![](https://github.com/googleapis/google-api-php-client/workflows/.github/workflows/tests.yml/badge.svg)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
+![FastMCP](https://img.shields.io/badge/FastMCP-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 # Google APIs Client Library for PHP #
 
@@ -12,6 +17,8 @@ these are the recommended libraries.
 </dl>
 
 The Google API Client Library enables you to work with Google APIs such as Gmail, Drive or YouTube on your server.
+
+🤖 This library can serve as the **data-access layer inside agentic AI systems** built on the **Model Context Protocol (MCP)**: expose Google APIs as MCP tools using **FastMCP**, orchestrate multi-agent workflows with **LangGraph** and **LangChain**, and power **OpenAI**-compatible agents that read Gmail, manage Drive files, or query any other Google service — all containerized and deployed as cloud-native services.
 
 These client libraries are officially supported by Google. However, the libraries are considered complete and are in maintenance mode. This means that we will address critical bugs and security issues but will not add any new features.
 
